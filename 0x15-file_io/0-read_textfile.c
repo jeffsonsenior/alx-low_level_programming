@@ -2,10 +2,11 @@
 
 /**
  * read_textfile - reads a text file and print it to the POSIX standard output.
- * @filename: filename.
+ * @filename: text file to read
  * @letters: numbers of letters printed.
  *
- * Return: numbers of letters printed if success,else  returns 0 for failure.
+ * Return: nwr-  actual numbers of letters printed if success,
+ * else  returns 0 for failure or null
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
